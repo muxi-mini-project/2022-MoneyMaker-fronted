@@ -1,0 +1,88 @@
+.window-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid #666;
+    background-color: #fff;
+}
+.window-header .iconone {
+    float: left;
+    margin: auto 50px;
+    width: 80px;
+    height: 80px;
+}
+.window-header .icontwo {
+    float: right;
+    width: 60px;
+    height: 30px;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+.window-header Text {
+    line-height: 100px;
+}
+.main-window {
+    width: 100%;
+    background: linear-gradient(#ffedef, #FFF);
+    overflow: scroll; 
+}
+.main-window .box {
+    position: relative;
+    width: 660px;
+    height: 270px;
+    margin: 20px auto;
+    border: 1px solid #666;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0)
+}
+.main-window .box Image {
+    float: left;
+    width: 250px;
+    height: 230px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.main-window .box .info {
+    height: 100px;
+    display: -webkit-box;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:2;
+    margin-top:5px;
+    padding-top:10px;
+
+}
+.main-window .box .money {
+    //display: block;
+    margin: 60px 0;
+    color: #FC6262;
+}
+.show {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 660px;
+    height: 270px;
+    background-color: rgba(62, 60, 60, 0.5);
+    z-index: 1;
+}
+.show .xiajia {
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    margin: 80px 180px;
+    //vertical-align:middle;
+    line-height:100px;
+    text-align:center;
+    background-color: #fff;
+    border: 2px solid #666;
+    border-radius: 10px;
+    color: #FC6262;
+}
+.hidden {
+    display: none
+}
