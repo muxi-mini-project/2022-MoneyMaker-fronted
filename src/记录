@@ -1,0 +1,66 @@
+index——第一个页面
+login——学号密码登录
+login后————main——浏览首页
+         ——info——信息页面
+         ——mine——我的
+detail——商品详情
+search——搜索页
+mywindow——我的橱窗
+pulloff——下架商品
+feedback——订单反馈
+order——提交评价——tijiao——提交成功
+comment_finish——订单完成 
+report——举报商品——subreport——提交举报
+
+
+
+
+未写接口：
+主页内容
+用户进行购买
+搜索并返回已排序的商品信息
+comment message start
+查看我的购物车（没有购物车页面）
+返回我的信息
+
+
+
+
+
+主页展示 ok
+上传商品  照片显示与上传no 展示到首页no
+举报商品 no
+商品详情页获取评论+橱窗 no
+开启交易显示way no
+info获取信息 no
+-----我的页面显示头像+修改昵称 no
+搜索 no
+---购物车功能暂未开放
+我的橱窗获取 no
+订单完成与评价 no
+
+
+
+
+问题
+nickname和avatar（mine主页）
+上传商品的图片
+搜索
+
+
+
+feedback接口   ---okk
+buy(只显示评价)
+右上角显示已评价
+判断是否评价看看是否隐藏
+sell（显示buyer、确认完成）
+同上右上角显示已完成
+
+问题 delete下架，显示已下架用if判断
+有一个大盒子盖住显示已下架
+
+头像接口
+昵称接口
+我的橱窗的下架显示
+我的订单
+开启交易的联系方式
