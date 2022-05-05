@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.mainlogo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.mainlogo Image{
+    width: 100rpx;
+    height: 100rpx;
+    margin-left: 30rpx;
+    margin-top: 30rpx;
+}
+.mainlogo .btn-push {
+    // position: relative;
+    // top: 25rpx;
+    // right: 25rpx;
+    display: block;
+    width: 80px;
+    height: 80px;
+    background-image: url(./images/上传.png);
+    background-size: cover;
+    // margin-left: 20px;
+    margin: 10rpx;
+    margin-right: 25rpx;
+    background-color: transparent;
+    align-self: flex-end;
+}
+.mainlogosub{
+    font-weight: bold;
+    margin-top: 30rpx;
+    margin-left: 30rpx;
+    // flex-grow: 1 !important;
+    // 报错都是浮云,自己觉得没有,那么就没有
+    // line-height: 100rpx;
+}
+.search {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100rpx;
+    background-color: transparent;
+    border-radius: 10rpx;  
+    display:flex;
+    justify-content: auto;
+    position: relative;
+}
+.mainbgc{
+    background: linear-gradient(#ffedef, #FFF);
+}
+.search Image {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin-left: 50px;
+}
+.search Input {
+    display: inline-block;
+    width: 540rpx;
+    height: 70rpx;
+    margin-top: 14rpx;
+    margin-left: 20rpx;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: #fff;
+}
+.search .btn-search{
+    position: relative;
+    right: 20rpx;
+    margin-top: 14rpx;
+    background-color: red;
+    width: 140rpx;
+    height: 70rpx;
+    border-radius: 30rpx;
+    color: #fff;
+    font-size:smaller;
+    line-height: 70rpx;
+}
+.search .btn-push {
+    width: 65px;
+    height: 65px;
+    margin: 10px 5px;
+    background: url('./images/上传.png');
+    background-size: cover;
+    border-radius: 0px;
+}
+.main-content {
+    width: 100%;
+    height: auto;
+    // padding-bottom: 100px;
+    // height: 800px;
+    // margin-top: 90px;
+    overflow: scroll; 
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.main-content .box {
+    width: 100%;
+    height: 270px;
+    margin-bottom: 30px;
+}
+.content_item{
+    left: 50rpx;
+}
+.itemimg{
+    border-radius: 25rpx;
+    margin: 25rpx;
+}
+.main-content .box Image {
+    float: left;
+    width: 270px;
+    height: 270px;      
+}
+.main-content .box .info {
+    height: 100px;
+    display: -webkit-box;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-top: 25rpx;
+    // -webkit-box-orient: vertical;
+    // -webkit-line-clamp:2;
+}
+.main-content .box .money {
+    display: block;
+    margin: 60px 0;
+    color: #FC6262;
+}

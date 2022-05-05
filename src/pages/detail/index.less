@@ -1,0 +1,238 @@
+.topBar{
+    // flex:0 0 auto;
+    // position:fixed ;
+    // top: 100rpx;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    // border-bottom: 4rpx double red;
+}
+.topBar Image{
+    margin: 25rpx;
+    width: 50rpx;
+    height: 50rpx;
+}
+.topBar .back{
+    width: 35rpx;
+    height: 35rpx;
+    border-radius: 50%;
+    border: 15rpx solid white;
+    background-color: white;
+}
+.btns {
+    width: 695px;
+    height: 100px;
+    margin: 0 auto;
+    border-bottom: 1px solid #666;
+    // margin-top: 20px;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.button {
+    width: 230px;
+    height: 99px;
+    font-size: 28px;
+    margin-bottom: 5px;
+    line-height: 99px;
+    text-align: center;
+    border: none;
+}
+.active {
+    border-bottom: 7px solid #FC6262;
+}
+.show{
+    width: 680px;
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: center;
+    height: 100px;
+}
+.hidden{
+    display: none;
+}
+.avatar {
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    border: none;
+}
+.goodsInfo{
+    text-align: left;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.goodsInfo .middleBar{
+    width: 100%;
+    height: 75px;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.goodsInfo .middleBar Button{
+    width: 50%;
+    border-radius: 0;
+    -ms-flex-positive: 1;
+    //flex-grow: 1;
+    font-size: smaller;
+    border-bottom: 2rpx solid white;
+}
+.goodsInfo .middleBar .btnDetail{
+    border-bottom: 2rpx solid red;
+}
+.goodsInfo .goodsDis{
+    //background-color: white;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.goodsInfo .goodsDis View{
+    margin: 20rpx 20rpx 100rpx;
+}
+.goodsInfo .bottomBar{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    left:0;
+    bottom: 50rpx;
+    -ms-flex-direction:row;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 28px;
+}
+.goodsInfo .bottomBar Button{
+    width: 300rpx;
+    height: 70rpx;
+    line-height: 56rpx;
+    font-weight: bolder;
+    border-radius: 30rpx;
+    text-align: center;
+}
+.goodsInfo .bottomBar .btnPrice{
+    line-height: 70rpx;
+    color: #FC6262;
+    background-color: white;
+    border: 2rpx solid #FC6262;
+}
+.goodsInfo .bottomBar .btnOpen{
+    line-height: 70rpx;
+    color: white;
+    background-color: #FC6262;
+    //background: linear-gradient(to right, red 0%, red 50%, rgba(255, 50, 96, 1) 100%);
+    border: 2rpx solid white;
+}
+//二
+.comBox{
+    // height: 200rpx;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/*学React去罢再也不想写静态了啊*/
+.upper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.userFigure{
+    height: 80rpx;
+    width: 80rpx;
+    border-radius: 40rpx;
+    margin: 20rpx;
+    background-color: lightgray;
+}
+.userName{
+    margin-left: -300rpx;
+    font-size: 35rpx;
+}
+// .pushTime{
+//     margin-right: 25rpx;
+//     font-size: 30rpx;
+//     color: lightgray;
+// }
+// .lower{
+//     color: gray;
+//     font-size: 20rpx;
+//     margin: 20rpx;
+// }
+.goodsPer{
+    background-color: white;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.goodsPer .accountPer{
+    height: 200rpx;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    color: gray;
+}
+.goodsPer .accountPer Image{
+    margin: 50rpx 25rpx 50rpx;
+    height: 100rpx;
+    width: 100rpx;
+    border-radius: 50rpx;
+    background: lightgray;
+}
+.goodsPer .accountPer .namePer {
+    font-size: 33px;
+    line-height: 100rpx;
+}
+.goodsPer .shelfPer{
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: gray;
+    font-size: small;
+    margin: 25rpx;
+}
+.goodsPer .shelfPer .shelfTitle{
+    margin-left: 25rpx;
+}
+.goodsPer .shelfPer .shelfList .orderBox{
+    height: 200rpx;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+// .goodsPer .shelfPer .shelfList .orderBox .orderPic{
+//     margin: 20rpx;
+//     height: 150rpx;
+//     width: 150rpx;
+//     border-radius: 10rpx;
+//     background: lightgray;
+//     // background-color: lightgray;
+// }
+// .goodsPer .shelfPer .shelfList .orderBox .orderInfo{
+//     display: flex;
+//     -ms-flex-direction: column;
+//     flex-direction: column;
+//     justify-content: space-around;
+//     margin: 20rpx;
+// }
+// .orderInfo .orderName{
+//     color: gray;
+// }
+// .orderInfo .orderPrice{
+//     font-weight: bold;
+//     color: red;
+// }
+.goodsPer .shelfPer .shelfTitle {
+    font-size: 40px;
+}
+.h {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px 0;
+}
